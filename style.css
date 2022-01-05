@@ -1,0 +1,166 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  background: #dddd;
+  font-family: 'Poppins', sans-serif;
+}
+.header_top {
+  overflow: hidden;
+  padding: 30px 20px;
+}
+.logo_area {
+  width: 200px;
+  float: left;
+  margin-top: 35px;
+}
+.logo_area a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: chocolate;
+}
+.top_address {
+  width: 500px;
+  float: right;
+  background: white;
+  border: 2px solid;
+  padding: 20px;
+}
+.top_address a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.menu_area {
+  background: #000;
+}
+.menu_area ul {
+  list-style: none;
+}
+.menu_area ul li {
+  display: inline;
+  border-right: 1px dotted #fff;
+}
+.menu_area ul li:last-child {
+    border-right: none;
+}
+.menu_area ul li a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 10px;
+}
+#hero_area {
+  background-image: url(img/back1.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5% 3%;
+}
+.hero_content {
+  width: 70%;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3%;
+  margin: 0 auto;
+}
+.hero_content h1 {
+  font-size: 40px;
+  line-height: 100px;
+}
+.hero_content p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.hero_content button {
+    border: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+    transition: ease all 0.5s;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.hero_content button:hover{
+    background-color: red;
+    color: white;
+}
+/*
+side and content area
+*/
+
+section.content {
+  margin: 20px 0;
+  overflow: hidden;
+}
+aside.side_bar {
+  width: 220px;
+  float: left;
+  background-color: #000;
+}
+.sidebar_menu ul {
+  list-style: none;
+}
+
+.sidebar_menu ul li {
+  border-bottom: #fff 1px dotted;
+}
+.sidebar_menu ul li:last-child{
+    border-bottom: none;
+}
+.sidebar_menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 18px;
+  line-height: 36px;
+}
+.content_area {
+  width: 774px;
+  float: left;
+  margin: 0 15px;
+}
+.single_content {
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+}
+.single_content h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.single_content p {
+  line-height: 24px;
+}
+.footer_top_area {
+    overflow: hidden;
+    background: #453D30;
+    color: #fff;
+    padding: 25px 0;
+}
+.footer_widge_area {
+    width: 30%;
+    float: left;
+    padding: .5%;
+    margin-left: 2%;
+}
+.footer_bottom_area {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
