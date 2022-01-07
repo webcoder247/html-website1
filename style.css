@@ -183,3 +183,6 @@ aside.side_bar {
     text-align: center;
     padding: 10px 0;
 }
+@media screen and (max-width: 400px) {
+    
+}
