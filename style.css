@@ -63,6 +63,7 @@
   background-position: center;
   background-repeat: no-repeat;
   padding: 5% 3%;
+  box-sizing: border-box;
 }
 .hero_content {
   width: 70%;
@@ -183,6 +184,101 @@ aside.side_bar {
     text-align: center;
     padding: 10px 0;
 }
-@media screen and (max-width: 400px) {
-    
+/* CSS for Tablet          */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 760px;
+}
+.top_address {
+  width: 450px;
+  float: right;
+}
+.hero_content h1 {
+  font-size: 30px;
+  line-height: 60px;
+}
+.hero_content p {
+  font-size: 15px;
+}
+aside.side_bar {
+  width: 175px;
+}
+.content_area {
+  width: 555px;
+}
+.footer_widge_area h2 {
+  margin-bottom: 10px;
+}
+.footer_widge_area p {
+  font-size: 14px;
+}
+.footer_widge_area h2::before {
+  right: 60px;
+}
+
+}
+/* CSS for  Moble  */
+@media screen and (max-width: 320px) {
+  .wrapper {
+    width: 320px;
+}
+.logo_area {
+  text-align: center;
+  float: none;
+  width: 290px;
+  margin-top: 0%;
+}
+.top_address {
+  width: 240px;
+  font-size: 14px;
+  margin-top: 20px;
+  float: none;
+}
+.hero_content h1 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.hero_content p {
+  font-size: 11px;
+  line-height: 32px;
+}
+.hero_content button {
+  font-size: 12px;
+  padding: 7px 12px;
+  border-radius: 5px;
+}
+aside.side_bar {
+  width: 281px;
+  margin: 20px;
+  text-align: center;
+}
+.content_area {
+  width: 285px;
+}
+.single_content {
+  padding: 5px;
+}
+.single_content h2 {
+  font-size: 15px;
+  line-height: 30px;
+}
+.single_content p {
+  font-size: 12px;
+}
+
+.footer_widge_area h2 {
+  font-size: 18px;
+}
+.footer_widge_area h2::before {
+  border: none;
+}
+.footer_widge_area h2::after {
+  width: 70%;
+}
+.footer_widge_area p {
+  font-size: 11px;
+}
+.footer_bottom_area p {
+  font-size: 12px;
+}
 }
