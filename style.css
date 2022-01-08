@@ -267,10 +267,11 @@ aside.side_bar {
 }
 
 .footer_widge_area h2 {
-  font-size: 18px;
+  font-size: 22px;
 }
+
 .footer_widge_area h2::before {
-  border: none;
+  right: 78px;
 }
 .footer_widge_area h2::after {
   width: 70%;
@@ -280,5 +281,9 @@ aside.side_bar {
 }
 .footer_bottom_area p {
   font-size: 12px;
+}
+.footer_widge_area {
+  width: 90%;
+  float: none;
 }
 }
